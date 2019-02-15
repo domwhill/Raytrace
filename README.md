@@ -1,7 +1,5 @@
-#--- 
+# Ray trace Python test program 
 
-
-#Ray trace Python test program 
 Solves the ray trace equations to track the propagation and absorption of laser light through a plasma.
  This raytrace follows the algorithm outlined in: 
   Benkevitch et al. Algorithm for Tracing Radio Rays in Solar Corona
@@ -13,9 +11,9 @@ Currently set up to perform a reflection test:
 Rays incident at different angles propagate up a linear density ramp. (from right to left)
 
 
-#-------- Run instructions -----------
- Runs using python3 distribution
- Navigate to directory
+###  Run instructions 
+Runs using python3 distribution
+ Navigate to directory containing raytrace files
  type in command line:
  ```sh 
   python raytrace_clean.py
